@@ -1,3 +1,5 @@
+//menu icon toggle
+
 $(function() {
 
     $('#menu').click(function() {

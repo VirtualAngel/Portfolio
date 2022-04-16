@@ -177,8 +177,6 @@ button {
   color: var(--lime);
 }
 
-
-
 .home h1 {
   padding-top: 7rem;
   font-size: 5rem;
@@ -309,6 +307,21 @@ button {
   margin: 2rem;
   overflow: hidden;
   cursor: pointer;
+}
+
+.socials {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.icon-space {
+    margin-left: 3rem;
+    color: var(--black);
+    font-size: 3rem;
 }
 
 /* begin media queries */
