@@ -236,7 +236,7 @@ button {
   border-radius: 10% 0;
 }
 
-.about .about-row {
+.about .about-column {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -244,31 +244,31 @@ button {
   padding: 1rem 0;
 }
 
-.about .about-row .info {
+.about .about-column .info {
   flex: 1 1 48rem;
   padding: 2rem 1rem;
   padding-left: 6rem;
 }
 
-.about .about-row .info h3 {
+.about .about-column .info h3 {
   color: var(--black);
   font-size: 2.2rem;
   font-weight: 600;
  }
 
-.about .about-row .info span {
+.about .about-column .info span {
   font-size: 2.5rem;
   color: var(--lime);
 }
 
 .container {
   padding: 3rem;
+  justify-content: center;
 }
 
 .card {
   background-color: var(--black);
   color: var(--mint);
-  margin-bottom: 2rem;
   box-shadow:.3rem .2rem rgba(34, 38, 41, .7);
   border-radius: 10% 0;
 }
@@ -292,21 +292,10 @@ button {
   color: var(--white);
 }
 
-.portfolio .box-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 2rem 0;
-}
-
-.portfolio .box-container .box {
-  height: 200rem;
-  width: 24rem;
-  border-radius: 1rem;
-  margin: 2rem;
-  overflow: hidden;
-  cursor: pointer;
+.card-title {
+  color: var(-mint);
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .socials {
@@ -324,8 +313,13 @@ button {
     font-size: 3rem;
 }
 
+.icon-space:hover {
+  color: var(--lime);
+  font-size: 3rem;
+}
+
 /* begin media queries */
-@media (max-width: 1200px) {
+@media (max-width: 1740px) {
   html {
     font-size: 55%;
   }
@@ -335,7 +329,7 @@ button {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   header {
     left: -120%;
   }
@@ -351,15 +345,13 @@ button {
   body {
     padding: 0;
   }
-}
 
-@media (max-width: 768px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   header {
     width: 100vw;
   }
@@ -368,11 +360,7 @@ button {
     margin: 0 3rem;
   }
 
-  .about .row .counter .box {
-    width: 100%;
-  }
-
-  .education .box-container .box {
+  .about .row {
     width: 100%;
   }
 
