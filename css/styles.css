@@ -8,7 +8,7 @@
   --charcoal: #222629;
   --white: #edeae5;
   --mint: #C5D8A4;
-  --darkpink: #b4817c;
+  --darkpink: #ab564d;
 }
 
 * {
@@ -158,6 +158,8 @@ button {
 }
 
 .home {
+  color: var(--black);
+  font-weight: 500;
   display: flex;
   justify-content: center;
   flex-flow: column;
@@ -170,6 +172,21 @@ button {
   font-size: 4rem;
   padding: 1rem;
   border-bottom: 0.2rem solid var(--darklime);
+  color: var(--black);
+}
+
+.sub-heading {
+  padding: 0;
+  margin: 0 0 2rem 0;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0 0 2rem 0;
+  border-bottom: 0.2rem solid var(--darklime);
+  color: var(--charcoal);
+}
+
+.xp-text {
+  font-size: 2rem;
   color: var(--black);
 }
 
@@ -258,7 +275,7 @@ button {
 
 .about .about-column .info span {
   font-size: 2.5rem;
-  color: var(--lime);
+  color: var(--darkpink);
 }
 
 .container {
@@ -298,6 +315,14 @@ button {
   font-weight: 500;
 }
 
+.xp-icons {
+    padding: 1rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .socials {
   padding: 0;
   display: flex;
@@ -309,6 +334,7 @@ button {
 
 .icon-space {
     margin-left: 3rem;
+    margin-bottom: 3rem;
     color: var(--black);
     font-size: 3rem;
 }
@@ -329,7 +355,7 @@ button {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   header {
     left: -120%;
   }
@@ -360,15 +386,7 @@ button {
     margin: 0 3rem;
   }
 
-  .about .row {
+  .about .about-column {
     width: 100%;
-  }
-
-  .portfolio .box-container .box {
-    width: 100%;
-  }
-
-  .contact .row form {
-    margin: 3rem 0;
   }
 }
