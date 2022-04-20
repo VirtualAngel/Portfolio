@@ -323,6 +323,13 @@ button {
     flex-wrap: wrap;
 }
 
+.xp-space {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  color: var(--black);
+  font-size: 3rem;
+}
+
 .socials {
   padding: 0;
   display: flex;
