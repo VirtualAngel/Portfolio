@@ -4,7 +4,6 @@
   --lime: #86c232;
   --darklime: #61892f;
   --black: #040908;
-  --lightgrey: #d5d2cf;
   --charcoal: #222629;
   --white: #edeae5;
   --mint: #C5D8A4;
@@ -331,7 +330,7 @@ button {
 }
 
 .socials {
-  padding: 0;
+  padding: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
