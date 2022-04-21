@@ -351,6 +351,11 @@ button {
   font-size: 3rem;
 }
 
+.icon-space:focus {
+  color: var(--lime);
+  font-size: 3rem;
+}
+
 .form-container {
   width: 75%;
   margin-left: auto;
@@ -380,10 +385,11 @@ input[type=email] {
   height: auto;
   color: var(--black);
   font-size: 2rem;
+  background-color: var(--white);
 }
 
 input:focus {
-  background-color: var(--black);
+  background-color: var(--formwhite);
   color: var(--white);
   outline: 0.2rem dotted var(--lime);
   border-radius: 10% 0;
@@ -392,10 +398,17 @@ input:focus {
 textarea {
   color: var(--black);
   font-size: 2rem;
+  background-color: var(--white);
   border: .2rem solid var(--black);
   border-radius: 5%;
 }
 
+textarea:focus {
+  background-color: var(--formwhite);
+  color: var(--white);
+  outline: 0.2rem dotted var(--lime);
+  border-radius: 10% 0;
+}
 .textinput {
   width: 90%;
   height: auto;
