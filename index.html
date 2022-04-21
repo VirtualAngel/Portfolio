@@ -27,7 +27,7 @@
         <button id="menu" type="button" tabindex="0" class="fas fa-keyboard" aria-expanded="false">
             <br> <span class="menu-title">Menu</span>
         </button>
-        <ul tabindex="2">
+        <ul tabindex="1">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <!-- <li><a href="#portfolio">Portfolio</a></li> -->
@@ -43,7 +43,7 @@
         <h1><span>Angela</span> Robinette</h1>
         <h2>Weaver of Engaging User Experiences</h2>
         <p>As a front-end developer, I'm passionate about web development. I love creating beautiful yet functional pages that enhance a user's experience through creating an effective UX and user-friendly UIs. I also keep up with the latest trends in web development and WCAG.</p>
-		<a href="#about"><button class="btn" type="button" tabindex="3" aria-label="about">About Me<i class="fas fa-user"></i></button></a>
+		<a href="#about"><button class="btn" type="button" tabindex="2" aria-label="about">About Me<i class="fas fa-user"></i></button></a>
     </section>
 <!--Home section ends-->
 
@@ -57,11 +57,11 @@
             <h3> <span> Path: </span> Front End Developer</h3>
             <h3> <span> Spoken Language: </span> English</h3>
             <h3> <span> Country: </span> U.S.</h3>
-            <a href="#"><button class="btn" type="button" tabindex="4" aria-label="resume download">Download Resume<i class="fas fa-download"></i></button></a>
+            <a href="#"><button class="btn" type="button" tabindex="3" aria-label="resume download">Download Resume<i class="fas fa-download"></i></button></a>
         </article>
     </div>
     <div class="container">
-        <h2 class="sub-heading" tabindex="1">Skills</h2>
+        <h2 class="sub-heading" tabindex="4">Skills</h2>
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col-12 col-md-6 col-lg-4 mb-5">
           		<div class="card h-100">
@@ -131,7 +131,7 @@
 <!-- Experience with section begins -->
 <section class="experience">
     <div class="container">
-        <h2 class="sub-heading" tabindex="2">Experience With</h2>
+        <h2 class="sub-heading">Experience With</h2>
         <p class="xp-text">The following are tools and languages I have used in the past.</p>
         <div class="xp-icons">
             <i class="fa-brands fa-php xp-space" alt="PHP logo">PHP</i>
@@ -155,14 +155,19 @@
         </section>
         <section class="contact">
             <h2 class="sub-heading">Send Message</h2>
+            <div class="form-container">
                 <form action="https://formsubmit.co/angela@dev-angela.com" method="POST">
                     <input type="hidden" name="_subject" value="New email from Dev-Angela's site!">
-                    <label for="email">Email (required)</label>
-                        <input type="email" id="email" name="email" required>
-                        <label for="message">Type your message here (requied)</label>                    
-                    <input type="text" id="message" name="message" required>
+
+                    <label for="email">Email (Required)</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your message (Required)</label>                    
+                    <textarea class="textinput" name="message" id="message" name="message" required></textarea>
+6
                     <button type="submit">Send</button>
                </form>
+            </div>  
         </section>
         </div>
     </section>    

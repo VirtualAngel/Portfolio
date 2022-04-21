@@ -8,6 +8,7 @@
   --white: #edeae5;
   --mint: #C5D8A4;
   --darkpink: #ab564d;
+  --formwhite: #f8f6f4;
 }
 
 * {
@@ -161,7 +162,7 @@ button {
   font-weight: 500;
   display: flex;
   justify-content: center;
-  flex-flow: column;
+  flex-flow: column wrap;
   padding: 0.7rem 3rem;
 }
 
@@ -348,6 +349,68 @@ button {
 .icon-space:hover {
   color: var(--lime);
   font-size: 3rem;
+}
+
+.form-container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+  color: var(--black);
+  font-weight: 600;
+  background-color: var(--formwhite);
+  border-style: solid;
+  border-color: var(--darklime);
+  border-radius: 10% 0;
+  justify-content: center;
+}
+
+input {
+  width: 90%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: .2rem solid var(--black);
+  border-radius: 5%;
+  display: block;
+  justify-content: center;
+}
+
+input[type=email] {
+  width: 90%;
+  height: auto;
+  color: var(--black);
+  font-size: 2rem;
+}
+
+input:focus {
+  background-color: var(--black);
+  color: var(--white);
+  outline: 0.2rem dotted var(--lime);
+  border-radius: 10% 0;
+}
+
+textarea {
+  color: var(--black);
+  font-size: 2rem;
+  border: .2rem solid var(--black);
+  border-radius: 5%;
+}
+
+.textinput {
+  width: 90%;
+  height: auto;
+  padding: 1rem;
+}
+
+label {
+  color: var(--black);
+  font-size: 2rem;
+}
+
+button[type=submit] {
+  font-size: 2rem;
+  width: 30%; 
+  padding: .7rem;
 }
 
 /* begin media queries */
