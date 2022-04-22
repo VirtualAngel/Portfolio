@@ -352,10 +352,10 @@ button {
 }
 
 .icon-style:focus {
-  color: var(--darklime);
-  padding-right: 1rem;
-  padding-left: 1rem;
-  border: .2rem solid var(--darklime);
+  color: var(--lime);
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  border: .2rem solid var(--charcoal);
   border-radius: 5px;
 }
 
