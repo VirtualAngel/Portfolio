@@ -157,6 +157,10 @@
             <h2 class="sub-heading">Send Message</h2>
             <div class="form-container">
                 <form action="https://formsubmit.co/angela@dev-angela.com" method="POST">
+                <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display: none;">
+                <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_subject" value="New email from Dev-Angela's site!">
 
                     <label for="email">Email (Required)</label>
@@ -175,14 +179,6 @@
 <!-- Contact Section Ends -->
 </main>
 
-<!-- Footer section begins -->
-
-<section class="footer">
-
-</section>
-
-<!-- Footer section ends -->
-    
  <!-- jquery cdn link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/script.js"></script>

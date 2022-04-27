@@ -444,6 +444,26 @@ button[type=submit]:focus {
   box-shadow: 0px 0px 10px rgba(134, 194, 50, .5);
 }
 
+button[type=submit]:hover {
+  background-color: var(--charcoal);
+  color: var(--formwhite);
+  border: 3px dotted;
+  border-color: var(--lime);
+  border-radius: 10% 0;
+  box-shadow: 0px 0px 10px rgba(134, 194, 50, .5);
+}
+
+footer {
+	color: var(--formwhite);
+	background-color: var(--mint);
+	padding: 0 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1% 3%;
+}
+
+
 /* begin media queries */
 @media (max-width: 1740px) {
   html {
