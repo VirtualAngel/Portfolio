@@ -394,7 +394,7 @@ input[type=email] {
 
 input:focus {
   background-color: var(--formwhite);
-  color: var(--white);
+  color: var(--black);
   border: 3px dotted;
   border-color: var(--lime);
   border-radius: 7px;
@@ -411,7 +411,7 @@ textarea {
 
 textarea:focus {
   background-color: var(--formwhite);
-  color: var(--white);
+  color: var(--black);
   border: 3px dotted;
   border-color: var(--lime);
   border-radius: 7px;
