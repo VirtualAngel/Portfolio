@@ -6,7 +6,7 @@
   --black: #040908;
   --charcoal: #222629;
   --white: #edeae5;
-  --mint: #C5D8A4;
+  --mint: #c5d8a4;
   --darkpink: #ab564d;
   --formwhite: #f8f6f4;
 }
@@ -64,7 +64,6 @@ header {
   flex-flow: column;
   text-align: center;
 }
-
 
 header .hero img {
   height: 17rem;
@@ -271,7 +270,7 @@ button {
   color: var(--black);
   font-size: 2.2rem;
   font-weight: 600;
- }
+}
 
 .about .about-column .info span {
   font-size: 2.5rem;
@@ -286,7 +285,7 @@ button {
 .card {
   background-color: var(--black);
   color: var(--mint);
-  box-shadow:.3rem .2rem rgba(34, 38, 41, .7);
+  box-shadow: 0.3rem 0.2rem rgba(34, 38, 41, 0.7);
   border-radius: 10% 0;
 }
 
@@ -316,11 +315,11 @@ button {
 }
 
 .xp-icons {
-    padding: 1rem;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  padding: 1rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .xp-space {
@@ -331,12 +330,13 @@ button {
 }
 
 .xp-space::before {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 
 .socials {
   padding: 3rem;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -344,10 +344,10 @@ button {
 }
 
 .icon-style {
-    margin-left: 3rem;
-    margin-bottom: 3rem;
-    color: var(--black);
-    font-size: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  color: var(--black);
+  font-size: 3rem;
 }
 
 .icon-style:hover {
@@ -359,10 +359,9 @@ button {
   color: var(--lime);
   padding-right: 1.2rem;
   padding-left: 1.2rem;
-  border: .2rem solid var(--charcoal);
+  border: 0.2rem solid var(--charcoal);
   border-radius: 5px;
 }
-
 
 .form-container {
   width: 75%;
@@ -382,13 +381,13 @@ input {
   width: 90%;
   padding: 1rem;
   margin-bottom: 1rem;
-  border: .2rem solid var(--black);
+  border: 0.2rem solid var(--black);
   border-radius: 5px;
   display: block;
   justify-content: center;
 }
 
-input[type=email] {
+input[type="email"] {
   width: 90%;
   height: auto;
   color: var(--black);
@@ -402,14 +401,14 @@ input:focus {
   border: 3px dotted;
   border-color: var(--lime);
   border-radius: 7px;
-  box-shadow: 0px 0px 10px rgba(134, 194, 50, .2);
+  box-shadow: 0px 0px 10px rgba(134, 194, 50, 0.2);
 }
 
 textarea {
   color: var(--black);
   font-size: 2rem;
   background-color: var(--white);
-  border: .2rem solid var(--black);
+  border: 0.2rem solid var(--black);
   border-radius: 5px;
 }
 
@@ -419,7 +418,7 @@ textarea:focus {
   border: 3px dotted;
   border-color: var(--lime);
   border-radius: 7px;
-  box-shadow: 0px 0px 10px rgba(134, 194, 50, .2);
+  box-shadow: 0px 0px 10px rgba(134, 194, 50, 0.2);
 }
 .textinput {
   width: 90%;
@@ -432,29 +431,29 @@ label {
   font-size: 2rem;
 }
 
-button[type=submit] {
-  width: 30%;   
-  padding: .5rem;
+button[type="submit"] {
+  width: 30%;
+  padding: 0.5rem;
   margin-top: 1rem;
   font-size: 2rem;
 }
 
-button[type=submit]:focus {
+button[type="submit"]:focus {
   background-color: var(--charcoal);
   color: var(--formwhite);
   border: 3px dotted;
   border-color: var(--lime);
   border-radius: 10% 0;
-  box-shadow: 0px 0px 10px rgba(134, 194, 50, .5);
+  box-shadow: 0px 0px 10px rgba(134, 194, 50, 0.5);
 }
 
-button[type=submit]:hover {
+button[type="submit"]:hover {
   background-color: var(--charcoal);
   color: var(--formwhite);
   border: 3px dotted;
   border-color: var(--lime);
   border-radius: 10% 0;
-  box-shadow: 0px 0px 10px rgba(134, 194, 50, .5);
+  box-shadow: 0px 0px 10px rgba(134, 194, 50, 0.5);
 }
 
 /* begin media queries */
