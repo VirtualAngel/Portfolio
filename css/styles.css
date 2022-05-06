@@ -157,10 +157,6 @@ button {
   border-radius: 10% 0;
 }
 
-.menu-title {
-  font-size: 1.75rem;
-}
-
 .home {
   color: var(--black);
   font-weight: 500;
