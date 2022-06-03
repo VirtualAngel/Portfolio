@@ -135,6 +135,7 @@ button {
   z-index: 1000;
   display: none;
 }
+
 #menu:hover {
   background: var(--white);
   color: var(--black);
@@ -184,16 +185,24 @@ button {
 
 .heading span {
   color: var(--lime);
+  
+}
+
+.logo-container img{
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  height: auto;
+  width: 17rem;
 }
 
 .home h1 {
-  padding-top: 7rem;
+  padding-top: 3rem;
   font-size: 5rem;
   color: var(--black);
 }
 
 .home h1 span {
-  color: var(--lime);
+  color: var(--darklime);
 }
 
 .home h2 {
@@ -201,6 +210,7 @@ button {
   font-size: 2.7rem;
   font-weight: 500;
   font-style: italic;
+  border-top: .3rem solid var(--charcoal);
 }
 
 .home h3 {
@@ -500,6 +510,16 @@ button[type="submit"]:hover {
   html {
     font-size: 55%;
   }
+
+  .logo-container {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .home h2 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -513,5 +533,9 @@ button[type="submit"]:hover {
 
   .about .about-column {
     width: 100%;
+  }
+
+  .home h2 {
+    text-align: left;
   }
 }
