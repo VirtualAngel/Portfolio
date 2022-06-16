@@ -192,7 +192,7 @@ button {
   margin-right: 2rem;
   margin-bottom: 2rem;
   height: auto;
-  width: 17rem;
+  max-width: 100%;
 }
 
 .home h1 {
