@@ -192,7 +192,11 @@ button {
   margin-right: 2rem;
   margin-bottom: 2rem;
   height: auto;
+<<<<<<< HEAD
 
+=======
+  max-width: 100%;
+>>>>>>> 5609db3b170f78e25e900d9a5f841f9753b43da8
 }
 
 .home h1 {
